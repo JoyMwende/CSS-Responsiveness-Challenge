@@ -7,8 +7,8 @@
 .main {
   /* font-size: 20px; */
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 input,
 li,
@@ -458,10 +458,12 @@ label {
   align-items: center;
   gap: 30px;
 }
+
+
 .price1:hover {
   margin-top: -50px;
   background-color: #121f34;
-  color: #fff;
+  color: white;
   height: 530px;
 }
 .ind-list {
@@ -471,11 +473,11 @@ label {
 }
 .ind-list label {
   font-weight: 500;
-  color: hsl(220, 13%, 13%);
+  /* color: hsl(220, 13%, 13%); */
 }
 .header h1 {
   font-weight: 800;
-  color: hsl(220, 13%, 13%);
+  /* color: hsl(220, 13%, 13%); */
 }
 .par {
   line-height: 25px;
@@ -552,7 +554,7 @@ label {
   /* align-items: center;
     justify-content: center; */
   /* align-content: center; */
-  width: 60%;
+  width: 700px;
   /* height: 180px; */
   /* position: absolute;
     top: 4100px;
@@ -560,17 +562,13 @@ label {
   transform: translateY(-50%);
   margin: auto;
   z-index: 1;
-  border: 1px solid grey;
 }
 .card-left {
   background-image: url(images/contact.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  width: 100%;
 }
 .card-right {
-  width: 100%;
   padding: 25px;
   background-color: white;
 }
@@ -618,7 +616,7 @@ label {
 }
 form {
   margin: 50px;
-  width: 500px;
+  /* width: 500px; */
 }
 form input [type="text"] {
   width: 100%;
@@ -763,7 +761,7 @@ form input [type="text"] {
     display: flex;
     flex-direction: column;
     gap: 15px;
-  color: hsl(219, 9%, 45%);
+    color: hsl(219, 9%, 45%);
     width: 100%;
     padding: 20px;
     margin: -15px -70px 0 -70px;
@@ -848,32 +846,6 @@ form input [type="text"] {
   .buttons {
     flex-direction: column;
   }
-  /* .box {
-    flex-direction: column;
-    padding-bottom: 0; 
-     gap: 20px; 
-   }
-  .box1 {
-    width: 80%;
-    top: 1000px;
-    left: 170px;
-  }
-  .box2 {
-    width: 80%;
-    top: 1250px;
-    left: 170px;
-  }
-  .box3 {
-    width: 80%;
-    top: 1500px;
-    left: 170px;
-  } */
-  /* .boxes {
-    flex-direction: column;
-    padding: 100px -30px 100px -30px;
-    margin-left: -20px;
-    margin-right: -20px;
-  } */
   .person {
     flex-direction: column;
     gap: 30px;
@@ -920,13 +892,11 @@ form input [type="text"] {
     width: 90%;
   }
   .card {
-    width: 300px;
+    width: 100%;
     /* margin-left: -50px; */
     margin-right: 50px;
   }
-  .card-left img {
-    height: 400px;
-  }
+
   .business {
     flex-direction: column;
     padding: 50px 180px 50px 30px;
@@ -964,9 +934,9 @@ form input [type="text"] {
 }
 
 @media screen and (max-width:1115px) {
-  .card{
+  /* .card{
     width: 20%;
-  }
+  } */
   /* .box {
     flex-direction: column;
     padding-bottom: 0; 
